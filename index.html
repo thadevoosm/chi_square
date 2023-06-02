@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chi-Square Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Chi-Square Calculator</h1>
+  <div class="container">
+    <label for="observed">Observed Values:</label>
+    <input type="text" id="observed" placeholder="Enter observed values (comma-separated)">
+    <br>
+    <label for="expected">Expected Values:</label>
+    <input type="text" id="expected" placeholder="Enter expected values (comma-separated)">
+    <br>
+    <button onclick="calculateChiSquare()">Calculate</button>
+    <br>
+    <label for="result">Chi-Square Value:</label>
+    <input type="text" id="result" readonly>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
